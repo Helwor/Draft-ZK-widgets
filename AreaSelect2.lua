@@ -408,7 +408,6 @@ end
 -- DRAWING
 -- in DrawScreen and DrawWorld call-in, we can run some drawing function
 function widget:DrawWorld()
-    GetUnitViewPosition(28987)
     if not classCalled then
         return
     end
